@@ -97,7 +97,7 @@ public class GetAPIDefinition {
 
                 break;
 
-            case "health":
+            case "healthy":
 
                 if (HttpGetResponseString.contains("\"status\": \"healthy\"")) {
                     successful = true;
